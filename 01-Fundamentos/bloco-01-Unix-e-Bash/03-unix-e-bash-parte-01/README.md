@@ -47,7 +47,9 @@ curl -o countries.txt "https://gist.githubusercontent.com/kalinchernev/486393efc
 4. Mostre novamente o conteúdo de countries.txt página por página, mas agora utilize um comando para buscar por Zambia.
 5. Busque por Brazil no countries.txt.
 6. Busque novamente por brazil, mas agora utilizando o lower case.
+
 ***Para os próximos exercícios, crie um novo arquivo chamado ```phrases.txt``` e adicione algumas frases à sua escolha. Não precisa criar o arquivo pelo terminal.***
+
 7. Busque pelas frases que não contenham a palavra ```fox```.
 8. Conte o número de palavras do arquivo ```phrases.txt```.
 9. Conte o número de linhas do arquivo p```hrases.txt```.
