@@ -1,7 +1,7 @@
 # Trybe
 Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [mim](https://github.com/Wanderson-rpf) nos módulos do curso de desenvolvedor Web na [Trybe](https://www.betrybe.com).
 
-## Fundamentos do Desenvolvimento Web
+## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ### Bloco 1: [Unix & Bash](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-01-Unix-e-Bash)
 
