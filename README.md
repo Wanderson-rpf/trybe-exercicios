@@ -3,7 +3,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
 
 ## Fundamentos do Desenvolvimento Web
 
-### Bloco 1: Unix & Bash
+### Bloco 1: [Unix & Bash](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-01-Unix-e-Bash)
 
 - [x] 1.3 - Fundamentos de Desenvolvimento Web
 - [x] 1.3 - Introdução Unix e Shell
