@@ -20,8 +20,8 @@ wc -l skills2.txt
 sleep $delay
 
 #Exercicio 5
-echo "-> Criando arquivo top_skills.txt usando o skills2.txt"
-cat < skills2.txt > top_skills.txt
+echo "-> Criando arquivo top_skills.txt usando o skills2.txt contendo as 3 primeiras skills em ordem alfabética"
+sort skills2.txt | head -3 > top_skills.txt
 sleep $delay
 
 #Exercicio 6
