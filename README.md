@@ -12,7 +12,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
 - [x] 1.3 - Unix e Bash - Parte 1
 - [x] 1.4 - Unix e Bash - Parte 2
 
-### Bloco 2: [Git, GitHub e Internet](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-01-Unix-e-Bash)
+### Bloco 2: Git, GitHub e Internet
 
 - [x] 2.1 - Git & GitHub - O que é e para que serve
 - [ ] 2.2 - Git & GitHub - Entendendo os comandos
