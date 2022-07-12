@@ -15,5 +15,5 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
 ### Bloco 2: Git, GitHub e Internet
 
 - [x] 2.1 - Git & GitHub - O que é e para que serve
-- [ ] 2.2 - Git & GitHub - Entendendo os comandos
+- [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [ ] 2.3 - Internet - Entendendo como ela funciona
