@@ -33,6 +33,7 @@ h2 {
 }
 
 h3 {
+    text-align: center;
     margin: 15px;
 }
 
@@ -72,27 +73,6 @@ article section {
     margin: 10px;
 }
 
-section .imagem-Stomatopoda {
-    position: relative;
-    width: 800px;
-    height: 600px;
-    margin: 25px;  
-    border-radius: 10%;
-    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
-}
-
-section .imagem-soco {
-    position: relative;
-    width: 320px;
-    height: 320px;
-}
-
-section .imagem-surpresa {
-    position: relative;
-    width: 320px;
-    height: 320px;
-}
-
 .section-one {
     position: relative;
     min-height: 100vh;
@@ -105,9 +85,54 @@ section .imagem-surpresa {
 table {
     border-collapse: collapse;
     width: 30%;
+    margin-bottom: 50px;
 }
 
 td {
     border: 1px solid #fff;
     padding: 5px;
 }
+
+
+.section-two {
+    display: block;
+}
+
+.section-two p {
+    margin: 10px 50px 50px;
+}
+
+.section-three {
+    display: block;
+}
+
+.section-three p {
+    margin: 10px 230px 50px 100px;
+}
+
+section .imagem-Stomatopoda {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 25px;  
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+section .imagem-soco {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    float: left;
+    margin-left: 100px;
+}
+
+section .imagem-surpresa {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 50px;
+}
+
+
