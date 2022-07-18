@@ -29,12 +29,11 @@ h1 {
 }
 h2 {
     text-align: center;
-    padding: 0 0 30px;
 }
 
 h3 {
     text-align: center;
-    margin: 15px;
+    /* margin: 15px; */
 }
 
 nav ul {
@@ -62,7 +61,13 @@ header {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin: 100px 0 0 0;
+    /* margin: 100px 0 0 0; */
+}
+
+article {
+    /* padding: 20px; */
+    width: 65%;
+    float: left;
 }
 
 article section {
@@ -70,12 +75,12 @@ article section {
     align-items: center;
     justify-content: center;
     flex-flow: column wrap;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .section-one {
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .section-one p {
@@ -85,12 +90,12 @@ article section {
 table {
     border-collapse: collapse;
     width: 30%;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 td {
     border: 1px solid #fff;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 
@@ -99,7 +104,7 @@ td {
 }
 
 .section-two p {
-    margin: 10px 50px 50px;
+    /* margin: 10px 50px 50px; */
 }
 
 .section-three {
@@ -107,14 +112,14 @@ td {
 }
 
 .section-three p {
-    margin: 10px 230px 50px 100px;
+    /* margin: 10px 230px 50px 100px; */
 }
 
 section .imagem-Stomatopoda {
     position: relative;
-    width: 800px;
-    height: 600px;
-    margin: 25px;  
+    width: 500px;
+    height: 300px;
+    /* margin: 25px;   */
     border-radius: 10%;
     box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
 }
@@ -124,7 +129,7 @@ section .imagem-soco {
     width: 180px;
     height: 180px;
     float: left;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 section .imagem-surpresa {
@@ -132,7 +137,22 @@ section .imagem-surpresa {
     width: 200px;
     height: 200px;
     float: right;
-    margin-right: 50px;
+    /* margin-right: 50px; */
+}
+
+aside {
+    width: 35%;
+    float: right;
+    padding: 35px 0;
+    height: 850px;
+}
+
+aside h3 {
+    text-align: center;
+}
+
+aside iframe {
+    width: 100%;
 }
 
 
