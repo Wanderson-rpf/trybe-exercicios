@@ -7,6 +7,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+Body {
+    background-color: #ADD8E6;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -17,6 +21,19 @@ nav {
     align-items: center;
     background-color: #00bfff;
     border-radius: 5px;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+h2 {
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+h3 {
+    margin: 15px;
 }
 
 nav ul {
@@ -31,6 +48,7 @@ nav ul li{
 nav ul li a {
     text-decoration: none;
     color: #fff;
+    text-transform: uppercase;
 }
 
 nav ul li a:hover {
@@ -38,7 +56,58 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-h1 {
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    margin: 80px 0;
+    margin: 100px 0 0 0;
+}
+
+article section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    margin: 10px;
+}
+
+section .imagem-Stomatopoda {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    margin: 25px;  
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+section .imagem-soco {
+    position: relative;
+    width: 320px;
+    height: 320px;
+}
+
+section .imagem-surpresa {
+    position: relative;
+    width: 320px;
+    height: 320px;
+}
+
+.section-one {
+    position: relative;
+    min-height: 100vh;
+}
+
+.section-one p {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+}
+
+td {
+    border: 1px solid #fff;
+    padding: 5px;
 }
