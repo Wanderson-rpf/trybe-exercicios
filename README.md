@@ -18,7 +18,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
 - [x] 2.2 - Git & GitHub - Entendendo os comandos
 - [x] 2.3 - Internet - Entendendo como ela funciona
 
-### Bloco 3: Introdução à HTML e CSS
+### Bloco 3: [Introdução à HTML e CSS](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-03-Introdução-a-HTML-e-CSS/04-html-semantico)
  - [x] 3.1 - Introdução - HTML & CSS
  - [x] 3.1 - HTML & CSS - Estruturas de página
  - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
