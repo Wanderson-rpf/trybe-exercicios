@@ -26,7 +26,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [x] 3.4 - HTML Semântico
  - [x] 3.5 - Projeto - Lessons Learned
 
-### Bloco 4: Introdução à JavaScript e Lógica de Programação
+### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-04-Introdução-à-JavaScript-e-Lógica-de-Programação)
  - [x] 4.1 - Introdução - JavaScript
  - [x] 4.1 - JavaScript - Primeiros passos
  - [x] 4.2 - JavaScript - Array e loop For
