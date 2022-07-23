@@ -3,8 +3,10 @@ console.log('-->Execicio 4:');
 
 const valor = -5;
 
-if(valor>=0){
+if(valor>0){
   console.log('Positive')
-}else{
+}else if(valor<0){
   console.log('Negative')
+}else{
+  console.log('zero')
 }
