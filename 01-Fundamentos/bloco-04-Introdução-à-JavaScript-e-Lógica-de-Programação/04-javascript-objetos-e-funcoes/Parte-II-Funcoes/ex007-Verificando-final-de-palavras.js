@@ -20,4 +20,4 @@ function verificandoFinalPalavras(palavraInteira, partePalavra){
     return false;
   }
 }
-console.log(verificandoFinalPalavras('wanderson', 'wanderson'));
+console.log(verificandoFinalPalavras('wanderson', 'on'));
