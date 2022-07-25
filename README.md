@@ -34,7 +34,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [ ] 4.4 - JavaScript - Objetos e funções
  - [ ] 4.5 - Projeto - Playground Functions
  
-### Bloco 5: [JavaScript: DOM, Eventos e Web Storage]()
+### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-05-JavaScript-DOM-Eventos-e-Web-Storage)
  - [ ] 5.1 - JavaScript - DOM e seletores
  - [ ] 5.2 - JavaScript - Trabalhando com elementos
  - [ ] 5.3 - JavaScript - Eventos
