@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Leitor de conteúdo</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <h1>Leitor de contéudo escrito</h1>
+  </header>
+  <main>
+    <h2>Insira abaixo o conteúdo no formato texto</h2>
+    
+    <section class="text-content">
+      <nav class="menu">
+        <h3>Propriedades do painel de leitura</h3>
+        <ul class="options">
+          <li id="background">
+            <span class="icon"><ion-icon name="color-fill-outline"></ion-icon></span>
+            <span>Cor de fundo</span>
+          </li>
+          <li id="color-letter">
+            <span class="icon"><ion-icon name="color-palette-outline"></ion-icon></span>
+            <span>Cor da letra</span>
+          </li>
+          <li id="font-size">
+            <span class="icon"><ion-icon name="text-outline"></ion-icon></span>
+            <span>Tamanho da fonte</span>
+          </li>
+          <li id="sapce-letter">
+            <sapn class="icon"><ion-icon name="resize-outline"></ion-icon></sapn>
+            <sapn>Espaço entre as linhas</sapn>
+          </li>
+          <li id="font-type">
+            <span class="icon"><ion-icon name="language-outline"></ion-icon></span>
+            <span>Tipo de fonte</span>
+          </li>
+          <li id="default">
+            <span class="icon"><ion-icon name="refresh-outline"></ion-icon></span>
+            <span>Restaurar padrão</span>
+          </li>
+        </ul>
+      </nav>
+      <textarea name="text-user" class="text" cols="30" rows="10"></textarea>
+    </section>
+  </main>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+</html>
