@@ -38,11 +38,19 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [x] 5.1 - JavaScript - DOM e seletores
  - [x] 5.2 - JavaScript - Trabalhando com elementos
  - [x] 5.3 - JavaScript - Eventos
- - [ ] 5.4 - JavaScript - Web Storage
- - [ ] 5.5 - Fundamentos - JavaScript - Projetos
- - [ ] 5.5 - Projeto - Arte com Pixels
- - [ ] 5.6 - Projeto - Lista de tarefas
+ - [x] 5.4 - JavaScript - Web Storage
+ - [x] 5.5 - Fundamentos - JavaScript - Projetos
+ - [x] 5.5 - Projeto - Arte com Pixels
+ - [x] 5.6 - Projeto - Lista de tarefas
  - [ ] 5.7 - Projeto - Meme Generator
  - [ ] 5.7 - Projeto - Adivinhe a Cor
  - [ ] 5.7 - Projeto - Carta Misteriosa
  
+### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo]()
+ - [ ] 6.1 - HTML & CSS - Forms
+ - [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+ - [ ] 6.3 - Introdução - CSS Flexbox
+ - [ ] 6.3 - CSS Flexbox - Parte 1
+ - [ ] 6.4 - CSS Flexbox - Parte 2
+ - [ ] 6.5 - CSS Responsivo - Mobile First
+ - [ ] 6.6 - Projeto - Trybewarts
