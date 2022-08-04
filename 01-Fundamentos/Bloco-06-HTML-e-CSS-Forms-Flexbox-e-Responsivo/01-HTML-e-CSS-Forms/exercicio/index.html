@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>TrybeTrip</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <h1>Sorteio de uma viagem pela TrybeTrip</h1>
+  </header>
+  <main class="content">
+    <form action="">
+      <div class="container">
+        <label for="input-name">Nome:</label>
+        <input type="text" name="name" id="input-name" placeholder="Insira seu nome" min="10" max="40">
+        <br>
+        <label for="input-email">E-mail:</label>
+        <input type="email" name="name" id="input-email" placeholder="Insira seu email" min="10" max="50">
+        <br>
+        <label for="radio-option"><input type="radio" name="radio" id="radio-option" value="Option 1">Cidade</label>
+        <label for="radio-option"><input type="radio" name="radio" id="radio-option" value="Option 2">Campo</label>
+        <label for="radio-option"><input type="radio" name="radio" id="radio-option" value="Option 3">Praia</label>
+        <label for="radio-option"><input type="radio" name="radio" id="radio-option" value="Option 4">Montanhas</label>
+        <br>
+        <p>Espaço para digitar a resposta:</p>
+        <textarea name="input-text-area" id="text-respost" cols="30" rows="10" placeholder="Informe sua resposta" maxlength="500"></textarea>
+        <br>
+        <label for="input-data"></label>
+        <input type="date" name="date" id="input-data">
+        <br>
+        <label for="agree">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? <input type="checkbox" name="checkbox-agree" id="agree"></label>
+        <br>
+        <label for="agree">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. <input type="checkbox" name="checkbox-agree" id="agree"></label>
+      </div>
+      <div class="controls">
+        <button type="submit" id="btn-enviar">Enviar</button>
+        <button type="reset" id="btn-reset">Limpar</button>
+      </div>
+    </form>
+  </main>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
