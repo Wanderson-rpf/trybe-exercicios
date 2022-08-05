@@ -47,8 +47,8 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [ ] 5.7 - Projeto - Carta Misteriosa
  
 ### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-06-HTML-e-CSS-Forms-Flexbox-e-Responsivo)
- - [ ] 6.1 - HTML & CSS - Forms
- - [ ] 6.2 - Bibliotecas JavaScript e Frameworks CSS
+ - [x] 6.1 - HTML & CSS - Forms
+ - [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
  - [ ] 6.3 - Introdução - CSS Flexbox
  - [ ] 6.3 - CSS Flexbox - Parte 1
  - [ ] 6.4 - CSS Flexbox - Parte 2
