@@ -18,7 +18,7 @@
         <section>
           <div class="input-group flex-nowrap p-2">
             <span id="label-name" class="input-group-text border border-success">Nome</span>
-            <input type="text" name="name" id="input-name" class="form-control border border-success" aria-describedby="label-name" placeholder="Insira seu nome" min="10" max="40">
+            <input type="text" name="name" id="input-name" class="form-control border border-success form__input " aria-describedby="label-name" placeholder="Insira seu nome" min="10" max="40">
           </div>
           <div class="input-group flex-nowrap p-2">
             <span id="label-email" class="input-group-text border border-success">E-mail</span>
@@ -43,15 +43,15 @@
           <span class="input-group-text">Por que você deveria ser <br> a pessoa desenvolvedora <br> a ganhar o concurso TrybeTrip?</span>
           <textarea name="input-text-area" id="text-respost" class="form-control border border-success" cols="30" rows="10" placeholder="Insira sua resposta" maxlength="500"></textarea>
         </div>
-        <div class="info-date p-2">
-          <label for="input-data">Qual a melhor data para realizar sua viagem?</label><br>
-          <input type="date" name="date" id="input-data" class="border border-success">
+        <div class="input-group flex-nowrap p-2">
+          <span id="label-date" class="input-group-text border border-success">Melhor data para realizar sua viagem?</span>
+          <input type="text" name="date" id="datepicker" class="form-control border border-success" aria-describedby="label-date" placeholder="dd/mm/aaaa" min="10" max="40">
         </div>
         <br>
         <section class="p-2">
           <div class="info-agree form-check">
             <input type="checkbox" name="checkbox-agree" id="agree" class="form-check-input">
-            <label for="agree">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? </label>
+            <label for="agree" >Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe? </label>
           <br>
             <input type="checkbox" name="checkbox-agree" id="agree" class="form-check-input" required>
             <label for="agree">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros. </label>
@@ -64,6 +64,17 @@
       </div>
     </form>
   </main>
+  <!-- Pikaday -->
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script src="pikaday.js"></script>
+  <script>
+      var picker = new Pikaday({ field: document.getElementById('datepicker') });
+  </script>
+    <!-- Just-validate -->
+    <script>
+      const validate = new window.JustValidate('#form');
+    </script>
+    <!-- meu script -->
   <script src="./assets/js/script.js"></script>
 </body>
 </html>
