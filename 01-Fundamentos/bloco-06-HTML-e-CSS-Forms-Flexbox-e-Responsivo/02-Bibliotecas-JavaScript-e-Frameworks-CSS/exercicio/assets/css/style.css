@@ -1,0 +1,38 @@
+h1 {
+  position: relative;
+  text-transform: uppercase;
+  color: #198754;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  border-radius: 20px;
+}
+
+.info-text-area #text-respost {
+  resize: none;
+} 
+
+.info-date {
+  position: relative;
+  display: block;
+}
+
+.info-date input {
+  border-radius: 5px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 850px;
+}
+
+.controls button {
+  text-transform: uppercase;
+  width: 200px;
+  height: 40px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.3);
+}
