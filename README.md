@@ -24,7 +24,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [x] 3.2 - HTML & CSS - Primeiros passos em CSS
  - [x] 3.3 - HTML & CSS - Seletores e posicionamento
  - [x] 3.4 - HTML Semântico
- - [x] 3.5 - Projeto - Lessons Learned
+ - [x] 3.5 - Projeto - Lessons Learned :heavy_check_mark:
 
 ### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-04-Introdução-à-JavaScript-e-Lógica-de-Programação)
  - [x] 4.1 - Introdução - JavaScript
@@ -32,7 +32,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [x] 4.2 - JavaScript - Array e loop For
  - [x] 4.3 - JavaScript - Lógica de Programação e Algoritmos
  - [x] 4.4 - JavaScript - Objetos e funções
- - [x] 4.5 - Projeto - Playground Functions
+ - [x] 4.5 - Projeto - Playground Functions :heavy_check_mark:
  
 ### Bloco 5: [JavaScript: DOM, Eventos e Web Storage](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-05-JavaScript-DOM-Eventos-e-Web-Storage)
  - [x] 5.1 - JavaScript - DOM e seletores
@@ -40,17 +40,17 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [x] 5.3 - JavaScript - Eventos
  - [x] 5.4 - JavaScript - Web Storage
  - [x] 5.5 - Fundamentos - JavaScript - Projetos
- - [x] 5.5 - Projeto - Arte com Pixels
- - [x] 5.6 - Projeto - Lista de tarefas
- - [ ] 5.7 - Projeto - Meme Generator
- - [ ] 5.7 - Projeto - Adivinhe a Cor
- - [ ] 5.7 - Projeto - Carta Misteriosa
+ - [x] 5.5 - Projeto - Arte com Pixels :heavy_check_mark:
+ - [x] 5.6 - Projeto - Lista de tarefas :heavy_check_mark:
+ - [x] 5.7 - Projeto - Meme Generator :heavy_check_mark:
+ - [x] 5.7 - Projeto - Adivinhe a Cor :heavy_check_mark:
+ - [x] 5.7 - Projeto - Carta Misteriosa :heavy_check_mark:
  
 ### Bloco 6: [HTML e CSS: Forms, Flexbox e Responsivo](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-06-HTML-e-CSS-Forms-Flexbox-e-Responsivo)
  - [x] 6.1 - HTML & CSS - Forms
  - [x] 6.2 - Bibliotecas JavaScript e Frameworks CSS
- - [ ] 6.3 - Introdução - CSS Flexbox
- - [ ] 6.3 - CSS Flexbox - Parte 1
+ - [x] 6.3 - Introdução - CSS Flexbox
+ - [x] 6.3 - CSS Flexbox - Parte 1
  - [ ] 6.4 - CSS Flexbox - Parte 2
  - [ ] 6.5 - CSS Responsivo - Mobile First
  - [ ] 6.6 - Projeto - Trybewarts
