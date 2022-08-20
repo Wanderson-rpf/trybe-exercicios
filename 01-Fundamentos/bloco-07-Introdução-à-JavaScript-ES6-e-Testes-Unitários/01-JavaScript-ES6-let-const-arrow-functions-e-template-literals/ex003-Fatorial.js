@@ -12,7 +12,11 @@ const factorial = (number) => {
   for (let index = number; index >= 1; index -= 1) {
     result *= index;
   }
-  return `Esse é o fatorial resultado da função: ${4}! = ${result}`
+  return `Esse é o fatorial resultado da função: ${number}! = ${result}`
 }
 
 console.log(factorial(4));
+
+// Solução do professor: recursiva
+const factorialRecursiva = number => number > 1 ? number * factorialRecursiva(number - 1) : 1;
+console.log(factorialRecursiva(5));
