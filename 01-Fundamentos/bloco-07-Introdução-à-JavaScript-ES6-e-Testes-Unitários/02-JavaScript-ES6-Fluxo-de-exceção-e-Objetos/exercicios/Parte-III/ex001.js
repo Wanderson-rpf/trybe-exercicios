@@ -1,4 +1,3 @@
-
 const lesson1 = {
   materia: 'Matemática',
   numeroEstudantes: 20,
