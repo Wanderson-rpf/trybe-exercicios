@@ -10,6 +10,7 @@ const resultRiffle = (func, bet) => {
 
   if (func === bet) { return 'Parabéns você ganhou'; }
   return 'Tente novamente';
+  
 };
 
 console.log(resultRiffle(numRaffle(), 3));

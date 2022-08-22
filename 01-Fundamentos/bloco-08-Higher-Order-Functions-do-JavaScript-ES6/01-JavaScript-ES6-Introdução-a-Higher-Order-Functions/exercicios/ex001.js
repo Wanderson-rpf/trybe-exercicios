@@ -14,6 +14,7 @@ const newEmployees = (func) => {
     id2: func('Carla Paiva'),
     id3: func('Luiza Drumond'),
   }
+  
   return employees;
 };
 
