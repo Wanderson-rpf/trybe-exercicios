@@ -30,6 +30,7 @@ const countPoints = (rightAnswers, studentAnswers, action) => {
     counter += actionReturn;
   }
   return `Resultado final: ${counter} pontos`;
+  
 };
 
 console.log(countPoints(RIGHT_ANSWERS, STUDENT_ANSWERS, compareAnswers));
