@@ -113,7 +113,6 @@ console.log('\n<---------------------- Exercicio 06 ---------------------->')
 function someBookWasReleaseOnThe80s() {
   books.some((releaseOnThe80s) => { console.log(releaseOnThe80s.releaseYear, 1980 < releaseOnThe80s.releaseYear && releaseOnThe80s.releaseYear < 1989) });
   return books.some((releaseOnThe80s) => { 1980 < releaseOnThe80s.releaseYear && releaseOnThe80s.releaseYear < 1989 }); 
-
 }
 console.log(someBookWasReleaseOnThe80s());
 
@@ -122,10 +121,11 @@ console.log('\n<---------------------- Exercicio 07 ---------------------->')
 function authorUnique() {
   let authorBirthYear = books[0].author.birthYear;
   // console.log(authorBirthYear);
-  const unique = books.forEach((item) => {
+  return books.forEach((item) => {
+    console.log(item);
     if (item.author.birthYear === authorBirthYear) { return false; }
     return true;
   })
-  return unique;
+
 }
 console.log(authorUnique());
