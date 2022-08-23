@@ -104,15 +104,14 @@ console.log(booksOrderedByReleaseYearDesc());
 console.log('\n<---------------------- Exercicio 05 ---------------------->')
 // * 🚀 5 - Faça uma função que retorne true, se todas as pessoas autoras nasceram no século XX, ou false, caso contrário.
 function everyoneWasBornOnSecXX() {
-  return books.every((birthYearAuthor) => { birthYearAuthor.author.birthYear >= 1901 && birthYearAuthor.author.birthYear <= 2000 });
+  return books.every((birthYearAuthor) => birthYearAuthor.author.birthYear >= 1901 && birthYearAuthor.author.birthYear <= 2000);
 }
 console.log(everyoneWasBornOnSecXX());
 
 console.log('\n<---------------------- Exercicio 06 ---------------------->')
 // * 🚀 6 - Faça uma função que retorne true, se algum livro foi lançado na década de 80, e false, caso contrário.
 function someBookWasReleaseOnThe80s() {
-  // ! books.some((releaseOnThe80s) => { console.log(releaseOnThe80s.releaseYear, 1980 < releaseOnThe80s.releaseYear && releaseOnThe80s.releaseYear < 1989) });
-  return books.some((releaseOnThe80s) => { releaseOnThe80s.releaseYear >= 1980 && releaseOnThe80s.releaseYear <= 1989 }); 
+  return books.some((releaseOnThe80s) => releaseOnThe80s.releaseYear >= 1980 && releaseOnThe80s.releaseYear <= 1989 ); 
 }
 console.log(someBookWasReleaseOnThe80s());
 
@@ -120,10 +119,11 @@ console.log('\n<---------------------- Exercicio 07 ---------------------->')
 // * 7 - Faça uma função que retorne true, caso nenhum author tenha nascido no mesmo ano, e false, caso contrário.
 function authorUnique() {
   let authorBirthYear = books[0].author.birthYear;
-  return books.forEach((item) => {
-    // console.log(item);
-    if (item.author.birthYear === authorBirthYear) { return false; }
-    return true;
+  let result = false;
+  books.forEach((item) => {
+    if (item.author.birthYear === authorBirthYear) { result = true; }
+    result = false;
   })
+  return result;
 }
 console.log(authorUnique());
