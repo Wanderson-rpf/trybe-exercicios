@@ -3,7 +3,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
 
 >"O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais."
 
-## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
+## Fundamentos do Desenvolvimento Web :heavy_check_mark:
 
 ### Bloco 1: [Unix & Bash](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-01-Unix-e-Bash)
 
@@ -61,10 +61,19 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [x] 7.3 - Primeiros passos em Jest
  - [x] 7.4 - Projeto - JavaScript Testes Unitários :heavy_check_mark:
  
- ### Bloco 8: [Higher Order Functions do javaScript ES6]()
+ ### Bloco 8: [Higher Order Functions do javaScript ES6](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/01-Fundamentos/bloco-08-Higher-Order-Functions-do-JavaScript-ES6)
  - [x] 8.1 - JavaScript ES6 - Introdução a Higher Order Functions
  - [x] 8.2 - JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
  - [x] 8.3 - JavaScript ES6 - Higher Order Functions - map e filter
  - [x] 8.4 - JavaScript ES6 - Higher Order Functions - reduce
  - [x] 8.5 - JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
- - [ ] 8.6 - Projeto - Zoo functions
+ - [x] 8.6 - Projeto - Zoo functions :heavy_check_mark:
+ 
+ ## Desenvolvimento Front-end :hourglass_flowing_sand:
+ 
+  ### Bloco 9: [JavaScript e Testes Assíncronos]()
+ - [ ] 9.1 - Introdução - Front-end
+ - [ ] 9.2 - JavaScript Assíncrono e Callbacks
+ - [ ] 9.3 - JavaScript Assíncrono - Fetch API e async/await
+ - [ ] 9.4 - Jest - Testes Assíncronos
+ - [ ] 9.5 - Projeto - Carrinho de Compras
