@@ -71,7 +71,7 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  
  ## Desenvolvimento Front-end :hourglass_flowing_sand:
  
-  ### Bloco 9: [JavaScript e Testes Assíncronos]()
+  ### Bloco 9: [JavaScript e Testes Assíncronos](https://github.com/Wanderson-rpf/trybe-exercicios/tree/main/02-Desenvolvimento-Front-end/bloco-09-javascript-e-testes-assincronos)
  - [x] 9.1 - Introdução - Front-end
  - [x] 9.2 - JavaScript Assíncrono e Callbacks
  - [x] 9.3 - JavaScript Assíncrono - Fetch API e async/await
