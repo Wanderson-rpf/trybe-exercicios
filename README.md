@@ -77,3 +77,48 @@ Repositório com os exercícios e atividades de aprendizagem desenvolvidos por [
  - [x] 9.3 - JavaScript Assíncrono - Fetch API e async/await
  - [x] 9.4 - Jest - Testes Assíncronos
  - [x] 9.5 - Projeto - Carrinho de Compras :heavy_check_mark:
+ 
+ ### Seção 2: [Introdução ao React]()
+ - [x] 2.1 - 'Hello, world!' no React!
+ - [x] 2.2 - Componentes React
+ - [x] 2.3 - Projeto - Solar System :heavy_check_mark:
+ 
+ ### Seção 3: [Componentes com Estado, Eventos e Formulários com React]()
+ - [x] 3.1 - Componentes com estado e eventos
+ - [x] 3.2 - Formulários no React
+ - [x] 3.3 - Projeto - Tryunfo :heavy_check_mark:
+ 
+### Seção 4: [Ciclo de Vida de Componentes e React Router]()
+ - [x] 4.1 - Ciclo de vida de componentes
+ - [x] 4.2 - React Router
+ - [x] 4.3 - Projeto - TrybeTunes :heavy_check_mark:
+ 
+### Seção 5: [Metodologias Ágeis]()
+ - [x] 5.1 - Metodologias Ágeis
+ - [x] 5.2 - Projeto - Front-end Online Store :heavy_check_mark:
+ 
+### Seção 6: [Testes Automatizados com React Testing Libary]()
+ - [x] 6.1 - RTL - Primeiros passos
+ - [x] 6.2 - RTL - Mocks e Inputs
+ - [x] 6.3 - RTL - Testando React Router
+ - [x] 6.4 - Projeto - Testes em React :heavy_check_mark:
+
+### Seção 7: [Gerenciando Estado com Redux]()
+ - [x] 7.1 - Introdução ao Redux - O estado global da aplicação
+ - [x] 7.2 - Usando o Redux no React
+ - [x] 7.3 - Usando o Redux no React - Prática
+ - [x] 7.4 - Usando o Redux no React - Actions Assíncronas
+ - [x] 7.5 - Testes em React-Redux
+ - [x] 7.6 - Projeto - Trybe Wallet :heavy_check_mark:
+
+### Seção 8: [Projeto Jogo de Trivia]()
+ - [x] 8.1 - Projeto - Jogo de Trivia :heavy_check_mark:
+
+### Seção 9: [Context API e React Hooks]()
+ - [x] 9.1 - React Hooks - useState e useEffect
+ - [x] 9.2 - Context API
+ - [ ] 9.3 - Custom Hooks
+ - [ ] 9.4 - Projeto - StarWars Datatable com Context API e Hooks
+
+### Seção 10: [Projeto App de Receitas]()
+ - [ ] 10.1 - Projeto - App de Receitas
