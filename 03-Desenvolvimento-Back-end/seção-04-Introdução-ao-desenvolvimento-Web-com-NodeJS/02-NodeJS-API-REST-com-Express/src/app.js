@@ -35,6 +35,21 @@ app.get('/movies', async (req, res) => {
   }
 });
 
+app.get('/movies/search', (req, res) => {
+  try {
+    const { q } = req.query;
+    const movies = contentFile();
+    if (q) {
+      const filteredMovies = movies.filter((element) => element.movie.includes(q));
+      console.log(req.query.q);
+      return res.status(200).json(filteredMovies);
+    }
+    res.status(200).end();
+  } catch (error) {
+    res.status(500).send({ message: error.message });
+  }
+});
+
 app.post('/movies', async (req, res) => {
   try {
     const { movie, price } = req.body;
