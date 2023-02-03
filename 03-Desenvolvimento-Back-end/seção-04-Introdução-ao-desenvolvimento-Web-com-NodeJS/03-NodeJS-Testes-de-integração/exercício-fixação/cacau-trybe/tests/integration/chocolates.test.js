@@ -9,15 +9,12 @@ const { expect } = chai;
 chai.use(chaiHttp);
 
 describe('Testando a API Cacau Trybe', function () {
-
   describe('Teste do metodo GET em /chocolates', function () {
-
     it('1) Retorna a lista completa de chocolates na rota "/chocolates"',  async function () {
       const response = await chai.request(app).get('/chocolates');
   
       expect(response.status).to.be.equal(200);
       expect(response.body.chocolates).to.deep.equal(mockChocolates);
-      console.log('Terminei o it');
     });
   
     it('2) Usando a rota "/chocolates/:id" para buscar o ID 4',  async function () {
@@ -29,7 +26,6 @@ describe('Testando a API Cacau Trybe', function () {
         name: 'Mounds',
         brandId: 3,
       });
-      console.log('Terminei o it');
     });
   
     it('3) Retorna status 404 com a mensagem "Chocolate not found" em /chocolates/99', async function () {
@@ -37,7 +33,6 @@ describe('Testando a API Cacau Trybe', function () {
   
       expect(response.status).to.be.equal(404);
       expect(response.body).to.deep.equal({ message: 'Chocolate not found' })
-      console.log('Terminei o it');
     });
   
     it('4) Usando a rota "/chocolates/brand/:brandId" para buscar brandId 1', async function () {
@@ -95,7 +90,6 @@ describe('Testando a API Cacau Trybe', function () {
     // AfterEach
     afterEach(function () {
       sinon.restore();
-      console.log('AfterEach')
     });
 
     it('1) Atualiza um chocolate existente', async function () {
