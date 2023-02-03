@@ -15,7 +15,7 @@ app.get('/chocolates', async (req, res) => {
 app.get('/chocolates/total', async (req, res) => {
   try {
     const chocolates = await cacauTrybe.getAllChocolates();
-    res.status(200).json({ totalChocolates: chocolates.length })
+    res.status(200).json({ totalChocolates: chocolates.length });
   } catch (error) {
     res.status(404).send({ message: error.message });
   }

@@ -64,7 +64,7 @@ describe('Teste do metodo GET em /chocolates', function () {
     const response = await chai.request(app).get('/chocolates/total');
 
     expect(response.status).to.be.equal(200);
-    expect(response.body.chocolates).to.deep.equal({
+    expect(response.body).to.deep.equal({
       "totalChocolates": 4 // quantidade de chocolates na base de dados
     });
   });
