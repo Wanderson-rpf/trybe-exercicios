@@ -1,4 +1,4 @@
-export default interface studentData {
+export default interface IStudent {
   matriculation: string,
   name: string,
   noteProofs: number[];
