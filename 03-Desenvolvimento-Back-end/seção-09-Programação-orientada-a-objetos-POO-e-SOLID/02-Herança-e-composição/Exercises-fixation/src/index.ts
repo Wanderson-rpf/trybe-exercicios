@@ -1,5 +1,6 @@
 // File of tests
 
+import MyClass from "./MyClass";
 import Subclass from "./Subclass";
 import Superclass from "./Superclass";
 
@@ -21,3 +22,8 @@ myFunc(sub);
 // };
 
 // myFunc(sub);
+
+const myObject = new MyClass(2);
+console.log(myObject.myNumber);
+console.log(myObject.myFunc(4));
+
