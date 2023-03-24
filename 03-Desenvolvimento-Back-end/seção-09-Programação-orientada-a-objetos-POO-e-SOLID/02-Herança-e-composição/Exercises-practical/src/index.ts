@@ -1,5 +1,7 @@
 import { Person } from "./entities/Person";
 import Student from "./entities/Students";
+import Subject from "./entities/Subject";
+import Teacher from "./entities/Teacher";
 import IEmployee from "./interface/employee";
 
 // Test person
@@ -41,3 +43,19 @@ const testInterfaceEmployee: IEmployee = {
 };
 
 console.log(testInterfaceEmployee);
+
+const math = new Subject('math');
+const story = new Subject('story');
+const philosophy = new Subject('philosophy');
+
+console.log(math);
+console.log(story);
+console.log(philosophy);
+
+const marta = new Teacher('Marta da Silva', new Date('1980/03/30'), 2000, math);
+const joao = new Teacher('João Antônio da Costa', new Date('1982/04/21'), 2000, story);
+const lucio = new Teacher('Lucio Teixeira', new Date('1986/01/29'), 2000, philosophy);
+
+console.log(marta);
+console.log(joao);
+console.log(lucio);
