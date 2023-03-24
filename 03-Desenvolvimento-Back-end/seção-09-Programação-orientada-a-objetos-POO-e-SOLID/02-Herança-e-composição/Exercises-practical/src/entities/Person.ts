@@ -1,10 +1,6 @@
 import dayjs from 'dayjs';
 
 export class Person {
-  // private _name: string;
-  // private _birthDate: Date;
-
-  // constructor(name: string, birthDate: Date) {
     constructor(private _name: string, private _birthDate: Date) {
     this.name = _name;
     this.birthDate = _birthDate;
