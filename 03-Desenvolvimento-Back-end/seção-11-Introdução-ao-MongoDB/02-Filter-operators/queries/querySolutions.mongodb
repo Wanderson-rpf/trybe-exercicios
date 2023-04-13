@@ -1,0 +1,124 @@
+use("exercises02");
+
+//* req 01
+db.superheroes.find();
+
+//* req 02
+db.superheroes.find({
+  "aspects.height": { $eq: 180 },
+});
+
+//* req 03
+db.superheroes.find({
+  "aspects.height": { $lt: 180 },
+});
+
+//* req 04
+db.superheroes.find({
+  "aspects.height": { $lte: 180 },
+});
+
+//* req 05
+db.superheroes
+  .find({
+    "aspects.height": { $gt: 200 },
+  })
+  .limit(1);
+
+//* req 06
+db.superheroes.find({
+  "aspects.height": { $gt: 200 },
+});
+
+//* req 07
+db.superheroes.find({
+  "aspects.eyeColor": { $eq: "green" },
+});
+
+//* req 08
+db.superheroes.find({
+  "aspects.eyeColor": { $eq: "blue" },
+});
+
+//* req 09
+db.superheroes.find({
+  "aspects.hairColor": { $in: ["black", "no hair"] },
+});
+
+//* req 10
+db.superheroes.countDocuments({
+  "aspects.hairColor": { $in: ["black", "no hair"] },
+});
+
+//* req 11
+db.superheroes.find({
+  "aspects.hairColor": { $nin: ["black", "no hair"] },
+});
+
+//* req 12
+db.superheroes.find({
+  "aspects.height": { $not: { $gt: 180 } },
+});
+
+//* req 13
+db.superheroes.find({
+  $and: [
+    {
+      race: { $ne: "Human" },
+      "aspects.height": { $lt: 180 },
+    },
+  ],
+});
+
+//* req 14
+db.superheroes.find({
+  $and: [
+    { publisher: "Marvel Comics" },
+    {
+      $or: [
+        { "aspects.height": { $eq: 180 } },
+        { "aspects.height": { $eq: 200 } },
+      ],
+    },
+  ],
+});
+
+//* req 15
+db.superheroes.find({
+  $and: [
+    { "aspects.weight": { $gte: 80, $lte: 100 } },
+    { $or: [{ race: { $eq: "Human" } }, { race: { $eq: "Mutant" } }] },
+    { publisher: { $not: { $eq: "DC Comics" } } },
+  ],
+});
+
+//* req 16
+db.superheroes.countDocuments({
+  race: { $exists: false }
+})
+
+//* req 17
+db.superheroes.countDocuments({
+  "aspects.hairColor": { $exists: true }
+})
+
+//* req 18
+db.superheroes.find({
+  publisher: "Sony Pictures"
+})
+
+db.superheroes.deleteOne({
+  publisher: "Sony Pictures"
+})
+
+//* req 19
+db.superheroes.find({
+  publisher: "George Lucas"
+})
+
+db.superheroes.deleteMany({
+  publisher: "George Lucas"
+})
+
+// ----------------------
+db.superheroes.find()
