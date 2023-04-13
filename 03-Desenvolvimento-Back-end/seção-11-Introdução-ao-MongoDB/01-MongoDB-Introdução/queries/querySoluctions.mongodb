@@ -1,0 +1,69 @@
+
+//* req 01
+db.bios.find({
+  _id: 8
+});
+
+//* req 02
+db.bios.find(
+  { _id: 8 },
+  {
+    _id: true,
+    name: true
+  }
+)
+
+//* req 03
+db.bios.find(
+  { _id: 8 },
+  { 
+    name: true,
+    birth: true
+  }
+);
+
+//* req 04
+db.bios.find({
+  "name.first": "John"
+})
+
+//* req 05
+db.bios.find().limit(3);
+
+//* req 06
+db.bios.find().skip(5).limit(2);
+
+//! Imported file books.json to container
+use('exercises01');
+db.books.find();
+
+//* req 07
+db.books.countDocuments();
+
+//* req 08
+db.books.countDocuments({
+  status: "PUBLISH"
+})
+
+//* req 09
+db.books.find(
+  {}, 
+  {
+    _id: false,
+    title: true,
+    isbn: true,
+    pageCount: true
+  }
+).limit(3);
+
+//* rea 10
+db.books.find(
+  { status: "MEAP" }, 
+  {
+    _id: true,
+    title: true,
+    authors: true,
+    status: true,
+  }
+).skip(5).limit(10)
+
