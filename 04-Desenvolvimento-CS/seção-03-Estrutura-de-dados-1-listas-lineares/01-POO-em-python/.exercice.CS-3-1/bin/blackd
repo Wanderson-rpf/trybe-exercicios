@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' "/media/wanderson/Novo volume2/000 - Trybe/trybe-exercicios/04-Desenvolvimento-CS/seção-03-Estrutura-de-dados-1-listas-lineares/01-POO-em-python/.exercice.CS-3-1/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from blackd import patched_main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(patched_main())
